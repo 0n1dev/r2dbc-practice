@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: ${r2dbc_host}
+    username: root
+    password: test
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc: DEBUG
